@@ -6,15 +6,15 @@ enum UbButtonSize {
   small;
 
   double get radius {
-    // switch (this) {
-    //   case UbButtonSize.large:
-    //     return 8;
-    //   case UbButtonSize.middle:
-    //     return 6;
-    //   case UbButtonSize.small:
-    //     return 4;
-    // }
-    return height/2;
+    switch (this) {
+      case UbButtonSize.large:
+        return 8;
+      case UbButtonSize.middle:
+        return 6;
+      case UbButtonSize.small:
+        return 4;
+    }
+    // return height/2;
   }
 
   double get height {
