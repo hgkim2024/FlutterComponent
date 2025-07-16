@@ -22,7 +22,7 @@ class _TestHomeScreenState extends State<TestHomeScreen> {
     return DefaultLayout(
         title: 'Home',
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.symmetric(horizontal: 32),
           child: ListView.separated(
             itemBuilder: (context, index) {
               final value = UbTestRoute.testValues[index];

@@ -38,11 +38,14 @@ class _TestSliderScreenState extends State<TestSliderScreen> {
             textAlign: TextAlign.center,
           ),
           SizedBox(height: 8),
-          UbSlider(
-            value: value,
-            onChanged: onChanged,
-            min: 0,
-            max: 100,
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: UbSlider(
+              value: value,
+              onChanged: onChanged,
+              min: 0,
+              max: 100,
+            ),
           ),
         ],
       ),

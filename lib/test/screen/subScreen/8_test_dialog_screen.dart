@@ -31,7 +31,7 @@ class TestDialogScreen extends StatelessWidget {
                   onPressed: () {
                     UbDialog.show(
                       context: context,
-                      title: '어제의 갈망감 수준이 기록되었어요!',
+                      title: '안녕하세요!',
                     );
                   },
                 ),
@@ -42,7 +42,7 @@ class TestDialogScreen extends StatelessWidget {
                     UbDialog.show(
                       context: context,
                       content:
-                          '갈망감을 기록하면 그동안의 변화를 쉽게 파악할 수 있어요 뿐만 아니라 내가 언제 유혹을 심하게 느꼈는지, 단약을 유지하려면 어떤 노력이 필요할 지에 대해서도 힌트를 얻을 수 있답니다.',
+                          'Flutter 개발을 하다 보면 너무 편해서 다른 언어 못 돌아갈 것 같은 느낌이 듭니다.',
                     );
                   },
                 ),
@@ -52,9 +52,9 @@ class TestDialogScreen extends StatelessWidget {
                   onPressed: () {
                     UbDialog.show(
                       context: context,
-                      title: '어제의 갈망감 수준이 기록되었어요!',
+                      title: '안녕하세요!',
                       content:
-                          '갈망감을 기록하면 그동안의 변화를 쉽게 파악할 수 있어요 뿐만 아니라 내가 언제 유혹을 심하게 느꼈는지, 단약을 유지하려면 어떤 노력이 필요할 지에 대해서도 힌트를 얻을 수 있답니다.',
+                          'AOS, iOS 네이티브 개발을 위주로 개발하고 있는 김현구 입니다.',
                     );
                   },
                 ),
@@ -66,11 +66,11 @@ class TestDialogScreen extends StatelessWidget {
                         context: context,
                         highlightText: UbHighlightText(
                           text:
-                              '어제 “약간 강함” 수준의 갈망감을 느끼셨던 기록이 있어요.\n\n다시 체크해보실래요?',
-                          highlightTexts: ['“약간 강함”'],
+                              '정말 삭제하시겠습니까?',
+                          highlightTexts: ['삭제'],
                         ),
-                        confirmTitle: '그냥 넘어가기',
-                        cancelTitle: '다시 체크하기');
+                        confirmTitle: '삭제',
+                        cancelTitle: '취소');
                   },
                 ),
                 const SizedBox(height: 16),
@@ -106,8 +106,8 @@ class TestDialogScreen extends StatelessWidget {
                   onPressed: () {
                     UbInputDialog.show(
                         context: context,
-                        title: '지금 어떤 감정을 느끼고 계신가요?',
-                        hint: '직접 작성하세요.',
+                        title: '이름을 입력해주세요.',
+                        hint: '이름 입력',
                         onConfirmPressed: (value) {
                           context.pop();
                         });
@@ -119,8 +119,8 @@ class TestDialogScreen extends StatelessWidget {
                   onPressed: () {
                     UbInputDialog.show(
                         context: context,
-                        title: '지금 어떤 감정을 느끼고 계신가요?',
-                        hint: '직접 작성하세요.',
+                        title: '이름을 입력해주세요.',
+                        hint: '이름 입력',
                         errorText: 'Error',
                         onConfirmPressed: (value) {
                           context.pop();

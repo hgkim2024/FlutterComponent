@@ -23,155 +23,158 @@ class _TestButtonScreenState extends State<TestButtonScreen> {
   Widget build(BuildContext context) {
     return DefaultLayout(
       title: 'Button',
-      child: ListView(
-        children: [
-          Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'large',
-                  size: UbButtonSize.large,
-                  type: UbButtonType.primary,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.left,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        child: ListView(
+          children: [
+            Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'large',
+                    size: UbButtonSize.large,
+                    type: UbButtonType.primary,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.left,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'middle',
-                  size: UbButtonSize.middle,
-                  type: UbButtonType.primary,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.none,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'middle',
+                    size: UbButtonSize.middle,
+                    type: UbButtonType.primary,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.none,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'small',
-                  size: UbButtonSize.small,
-                  type: UbButtonType.primary,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.right,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'small',
+                    size: UbButtonSize.small,
+                    type: UbButtonType.primary,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.right,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'large',
-                  size: UbButtonSize.large,
-                  type: UbButtonType.primaryLine,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.none,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'large',
+                    size: UbButtonSize.large,
+                    type: UbButtonType.primaryLine,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.none,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'middle',
-                  size: UbButtonSize.middle,
-                  type: UbButtonType.primaryLine,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.left,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'middle',
+                    size: UbButtonSize.middle,
+                    type: UbButtonType.primaryLine,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.left,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'small',
-                  size: UbButtonSize.small,
-                  type: UbButtonType.primaryLine,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.right,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'small',
+                    size: UbButtonSize.small,
+                    type: UbButtonType.primaryLine,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.right,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'large',
-                  size: UbButtonSize.large,
-                  type: UbButtonType.grayLine,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.right,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'large',
+                    size: UbButtonSize.large,
+                    type: UbButtonType.grayLine,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.right,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'middle',
-                  size: UbButtonSize.middle,
-                  type: UbButtonType.grayLine,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.left,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'middle',
+                    size: UbButtonSize.middle,
+                    type: UbButtonType.grayLine,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.left,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'small',
-                  size: UbButtonSize.small,
-                  type: UbButtonType.grayLine,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.none,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'small',
+                    size: UbButtonSize.small,
+                    type: UbButtonType.grayLine,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.none,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'large',
-                  size: UbButtonSize.large,
-                  type: UbButtonType.textOnly,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.right,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'large',
+                    size: UbButtonSize.large,
+                    type: UbButtonType.textOnly,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.right,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'middle',
-                  size: UbButtonSize.middle,
-                  type: UbButtonType.textOnly,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.left,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'middle',
+                    size: UbButtonSize.middle,
+                    type: UbButtonType.textOnly,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.left,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: 'small',
-                  size: UbButtonSize.small,
-                  type: UbButtonType.textOnly,
-                  onPressed: _onPressed,
-                  icon: UbButtonIcon.left,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: 'small',
+                    size: UbButtonSize.small,
+                    type: UbButtonType.textOnly,
+                    onPressed: _onPressed,
+                    icon: UbButtonIcon.left,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                child: UbButton(
-                  title: _onPressed == null ? 'active all' : 'disable all',
-                  size: UbButtonSize.large,
-                  type: UbButtonType.primary,
-                  onPressed: () {
-                    setState(() {
-                      if (_onPressed == null) {
-                        _onPressed = () {
-                          ubLog.tag(Tag.SCREEN).d('onPressed');
-                          setState(() {
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                  child: UbButton(
+                    title: _onPressed == null ? 'active all' : 'disable all',
+                    size: UbButtonSize.large,
+                    type: UbButtonType.primary,
+                    onPressed: () {
+                      setState(() {
+                        if (_onPressed == null) {
+                          _onPressed = () {
+                            ubLog.tag(Tag.SCREEN).d('onPressed');
+                            setState(() {
 
-                          });
-                        };
-                      } else {
-                        _onPressed = null;
-                      }
-                    });
-                  },
+                            });
+                          };
+                        } else {
+                          _onPressed = null;
+                        }
+                      });
+                    },
+                  ),
                 ),
-              ),
-            ],
-          ),
-        ],
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

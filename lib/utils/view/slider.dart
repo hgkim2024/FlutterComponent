@@ -108,7 +108,7 @@ class GradientSliderTrackShape extends SliderTrackShape {
       RRect.fromRectAndRadius(
         Rect.fromLTWH(
             offset.dx, offset.dy, trackWidth, sliderTheme.trackHeight!),
-        Radius.circular(4), // 원하는 cornerRadius 값
+        Radius.circular(20), // 원하는 cornerRadius 값
       ),
       paint,
     );
@@ -122,7 +122,7 @@ class GradientSliderTrackShape extends SliderTrackShape {
         RRect.fromRectAndRadius(
           Rect.fromLTWH(thumbPosition + offset.dx, offset.dy,
               trackWidth - thumbPosition, sliderTheme.trackHeight!),
-          Radius.circular(4), // 원하는 cornerRadius 값
+          Radius.circular(20), // 원하는 cornerRadius 값
         ),
         paint,
       );
