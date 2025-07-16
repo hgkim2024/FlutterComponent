@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import '../../../../utils/view/button/normal/button_animation_data.dart';
 
 class DataUtils {
-  static final baseUrl = 'https://dstop.ubi-plus.co.kr/api/v1';
+  static final baseUrl = '';
 
   static DateTime stringToDateTime(String value) {
     return DateTime.parse(value);
