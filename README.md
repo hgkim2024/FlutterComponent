@@ -9,7 +9,7 @@
 <br>
 
 ## UI 컴포넌트화
-- Text, Font, Button, Dialog, Video Player, Audio Player 컴포넌트화
+- Text, Font, Button, Dialog 컴포넌트화
 
 <br>
 
@@ -38,6 +38,3 @@
 - flutter_riverpod
 - go_router
 - permission_handler
-- video_player
-- just_audio
-- record
